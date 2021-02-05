@@ -7,6 +7,8 @@ public class Location {
     private static int nextId = 1;
     private String value;
 
+    //Constructors
+
     public Location() {
         id = nextId;
         nextId++;

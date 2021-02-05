@@ -7,6 +7,8 @@ public class PositionType {
     private static int nextId = 1;
     private String value;
 
+    //Constructors
+
     public PositionType() {
         id = nextId;
         nextId++;
@@ -17,14 +19,11 @@ public class PositionType {
         this.value = value;
     }
 
-    // TODO: Add a custom toString() method that returns the data stored in 'value'.
-
     public String toString(){
         return value;
         }
 
-    // TODO: Add custom equals and hashCode methods.
-    //  Consider two PositionType objects "equal" when their id fields match.
+    //Equals and hash methods
 
     @Override
     public boolean equals(Object o) {
