@@ -66,7 +66,7 @@ public class JobTest {
         Job empty_job = new Job();
         String dna = "Data not available";
         String expected = "\n" +
-                "ID: " + 2 + "\n" +
+                "ID: " + 6 + "\n" +
                 "Name: " + dna + "\n" +
                 "Employer: " + dna + "\n" +
                 "Location: " + dna + "\n" +
@@ -79,7 +79,7 @@ public class JobTest {
     @Test
     public void testAllFieldsFilled(){
         String expected = "\n" +
-                "ID: " + 1 + "\n" +
+                "ID: " + 7 + "\n" +
                 "Name: " + "Product tester" + "\n" +
                 "Employer: " + "ACME" + "\n" +
                 "Location: " + "Desert" + "\n" +
